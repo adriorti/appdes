@@ -14,6 +14,7 @@
 
 	<div data-role="page" id="splash">
 		<h1>Voll der naise Splashscreen</h1>
+		<p>Splashi splash</p>
 	</div>
 	
 	<div data-role="page" id="home">
