@@ -11,6 +11,7 @@
 </head>
 <body>
 
+
 	<div data-role="page" id="splash">
 		<h1>Voll der naise Splashscreen</h1>
 	</div>
@@ -18,6 +19,7 @@
 	<div data-role="page" id="home">
 		<div class="container">
 			
+
 			<h1>App</h1>
 			<a href="#seite2" data-transition="pop"><button class="btn btn-primary">Weiter</button></a>
 		</div>
@@ -34,6 +36,7 @@
 <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"> </script>
 <script> 
 $(document).ready(function(){
+
    setTimeout(function(){
 	  $(':mobile-pagecontainer').pagecontainer('change', '#settings');
 	}, 2000);
@@ -41,4 +44,6 @@ $(document).ready(function(){
 </script> 
 </body>
 </html>
+
+   
 
