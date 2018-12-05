@@ -1,3 +1,160 @@
-#home{
+@font-face {
+    font-family: 'Muller-Medium';
+    src: url('../fonts/MullerMedium.woff2') format('woff2'),
+        url('../fonts/MullerMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'Muller';
+    src: url('../fonts/MullerRegular.woff2') format('woff2'),
+        url('../fonts/MullerRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muller-Bold';
+    src: url('../fonts/MullerBold.woff2') format('woff2'),
+        url('../fonts/MullerBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+html, body{
+	background-color: black !important;
+	font-family: 'Muller', Helvetica, Arial, sans-serif;
+}
+
+
+
+#splash{
+	background-color: black;
+	color: white;
+}
+
+#splash .container{
+	padding: 20px;
+}
+
+#splash .logo {
+	position: absolute;
+	width: 100%;
+	max-width: 250px;
+	left: 50%;
+	top: 50%;
+	margin-left: -125px;
+	margin-top: -125px;
+}
+
+
+#intro{
+	background-color: black;
+	color: white;
+	
+}
+
+#intro2{
+	background-color: black;
+	color: white;
+	
+}
+
+#intro3{
+	background-color: black;
+	color: white;
+	
+}
+.tutorial {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.cancel{
+	width: 100%;
+	max-width: 20px;
+	margin: 5px;
+
+}
+
+.introduction-img{
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	max-width: 160px;  
+
+}
+
+.introduction{
+	width: 100%;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	
+
+}
+
+.intro-text{
+	padding: 0px 20px;
+}
+
+
+.seitenzahl {
+	
+	position: absolute;
+	left: 50%;
+	bottom: 5px;
+	margin-left: -44px;
+	margin-top: 20px;
+	
+}
+
+
+
+#intro3 .startbutton {	
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+  	letter-spacing: 2.5px;
+	border: none;
+	color: white;
+	border: none;
+	box-shadow: 0 0 10px #eee;
+	border-radius: 10px;
+	background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+	position: absolute;
+	bottom: 65px;
+	padding: 10px;
+	width: 100px;
+	left: 50%;
+	margin-left: -50px;
+}
+
+#skip{
+	background-color: black;
+	color: white;
+	
+}
+
+#skip .h1 {
+	font-weight: bold;
+}
+
+
+.start{
+	max-width: 300px;
+	margin: 50px;
+
+}
+
+.start-text{
+	padding: 0px 20px;
+}
+
+.page-item.disabled .page-link {
+color: #fff;
+background-color: black;
+border: none;
 }
